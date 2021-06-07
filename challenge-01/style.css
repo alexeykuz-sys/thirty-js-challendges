@@ -18,6 +18,10 @@ body {
   font-size: 16px;
   background-color: rgb(148, 139, 139);
   overflow-x:hidden;
+  background-image: url('./images/concert.jpg');
+  background-repeat: repeat;
+  background-position: center;
+  background-size: cover;
 }
 
 .keys{
@@ -28,30 +32,35 @@ body {
     display: flex;
     justify-content: space-around;
     width: 90%;
+    flex-wrap: wrap;
+    margin: 5px;    
 }
 
 .key {
     width: 90px;
     height: 90px;
-    border: 2px solid white;
+    border: 3px solid rgba(134, 11, 11, 0.63);
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    transition: all 0.7s;
+    transition: all 0.17s;
     border-radius: 5px;
-    font-size: 20px;
-    color: white;
+    font-size: 35px;
+    color: red;
     cursor: pointer;
+    box-shadow: rgba(116, 114, 131, 0.15) 0px 48px 100px 0px;
 }
 
 .playing{
-    transform: scale(1.2);
-    border: 1px solid red;
-    box-shadow: 0 0 10px #ffc600;
+    transform: scale(2);
+    border: 3px solid rgb(119, 109, 109);
+    box-shadow: rgb(20, 30, 41) 0px 20px 30px -10px;
+    
 }
 
 .sound {
-    color: yellow;
+    color:white;
     text-transform: lowercase;
+    font-size:15px;
 }
