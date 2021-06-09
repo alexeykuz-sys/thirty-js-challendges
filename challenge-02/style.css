@@ -34,7 +34,7 @@ body {
     border-radius: 50%;
     width: 500px;
     height: 500px;
-    transform: translateY(-3px); 
+    /* transform: translateY(-3px);  */
     box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
 }
 .hand {
@@ -50,3 +50,33 @@ body {
 }
 
 
+.clock-face::after {
+    content:"12";
+    top:0;
+    left:48%;
+    position: absolute;
+  }
+
+  
+.clock-face::before {
+    content:"6";
+    left:52%;
+    bottom: 0;
+    position: absolute;
+  }
+
+
+  .clock-face span::after {
+    content:"9";
+    top: 47%;
+    left:0%;
+    position: absolute;
+  }
+
+  
+.clock-face span::before {
+    content:"3";
+    right:0%;
+    top: 45%;
+    position: absolute;
+}
