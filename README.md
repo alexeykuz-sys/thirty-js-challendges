@@ -4,6 +4,7 @@
   - [Challenge 01](#challenge-01)
   - [Challenge 02](#challenge-02)
   - [Challenge 03](#challenge-03)
+  - [Challenge 04](#challenge-04)
 
 ## Overview
 The purpose of this challenge is to build one app a day in next 30 days. I might not be able to build the apps daily but will endeavour to finish challenge as soon as possible. The main purpose is to learn and practice JavaScript.
@@ -24,3 +25,9 @@ What did I learn:
 
 Really enjoyed this challenge. It was good to repeat all basic JS functions. I am proud I parsed the webpage and built api for that. I did it in the vscode rather than in the browser.
 I feel more comfortable with APIs.
+
+### Chalenge 04
+
+It was a good exercise to practice CSS animation and CSS Transition properties.
+
+
