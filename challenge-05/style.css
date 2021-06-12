@@ -53,9 +53,6 @@ body {
     padding: 10px;
     border-radius: 10px;
 }
-/* .suggestions li .name {
-    width: 500px;
-    display: block;
-    list-style: none;
-    background-color: white;
-} */
+.hl {
+    background-color: yellow;
+}

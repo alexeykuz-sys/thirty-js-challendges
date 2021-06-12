@@ -5,6 +5,7 @@
   - [Challenge 02](#challenge-02)
   - [Challenge 03](#challenge-03)
   - [Challenge 04](#challenge-04)
+  - [Challenge 05](#challenge-05)
 
 ## Overview
 The purpose of this challenge is to build one app a day in next 30 days. I might not be able to build the apps daily but will endeavour to finish challenge as soon as possible. The main purpose is to learn and practice JavaScript.
@@ -30,4 +31,7 @@ I feel more comfortable with APIs.
 
 It was a good exercise to practice CSS animation and CSS Transition properties.
 
+### Chalenge 05
+
+More difficult challenge. I practice to write json fetch function and display data. I learned for first time how to use regExp. 
 
