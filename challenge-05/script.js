@@ -39,4 +39,5 @@ const searchRef = document.querySelector('.search');
 const suggestRef = document.querySelector('.suggestions')
 
 searchRef.addEventListener('change', displayMatches)
-suggestRef.addEventListener('keyup', displayMatches)
+searchRef.addEventListener('keyup', displayMatches)
+
