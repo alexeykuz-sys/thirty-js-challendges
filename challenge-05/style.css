@@ -18,4 +18,44 @@ body {
     font-size: 16px;
     background-color: rgb(102, 96, 96);
     overflow-x:hidden;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
 }
+
+.search-form {
+    width: 5    00px;
+    margin-top: 30px;
+}
+.search{
+    width: 100%;
+    border-radius: 10px;
+    border: 2px solid black;
+    background-color: aliceblue;
+    color: black;
+    font-size: 16px;
+    font-weight: 500;
+    padding: 10px;
+}
+
+.suggestions{
+    padding: 0px;
+}
+
+.suggestions li{
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    align-items: center;
+    background-color: aliceblue;
+    padding: 10px;
+    border-radius: 10px;
+}
+/* .suggestions li .name {
+    width: 500px;
+    display: block;
+    list-style: none;
+    background-color: white;
+} */
