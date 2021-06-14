@@ -7,6 +7,10 @@
 </head>
 <body>
   <p><em>Psst: have a look at the JavaScript Console</em> 💁</p>
+  <div id='someRef'></div>
+  <div id='everyRef'></div>
+  <div id='findRef'></div>
+  <div id='findInd'></div>
   <script>
     // ## Array Cardio Day 2
 
@@ -27,21 +31,29 @@
 
     // Some and Every Checks
     // Array.prototype.some() // is at least one person 19 or older?
-    // Array.prototype.every() // is everyone 19 or older?
-    let day = new Date(day)
-    
-    let person = people.some(human=> {
-        let age = day - human.year
-        console.log(age)
+    isAdult = people.some(human=>{
+        let year = new Date().getFullYear();
+        if((year - human.year) >= 19) return true;
     })
+    document.getElementById('someRef').innerHTML = `The answer is <b>${isAdult}</b>`
+    // Array.prototype.every() // is everyone 19 or older?
+    isAdults = people.every(human=>(( new Date().getFullYear() - human.year)>=19))
+
+document.getElementById('everyRef').innerHTML = `The answer is <b>${isAdults}</b>`
 
     // Array.prototype.find()
     // Find is like filter, but instead returns just the one you are looking for
     // find the comment with the ID of 823423
 
+    const findComment = comments.find(comment=>comment.id=='823423')
+    document.getElementById('findRef').innerHTML = `The answer is <b>${findComment.text}</b> with <b>${findComment.id}</b>`
     // Array.prototype.findIndex()
     // Find the comment with this ID
+    const commentIndex = comments.findIndex(comment=>comment.id=='823423')
+    document.getElementById('findInd').innerHTML = `The answer is <b>${commentIndex}</b>`
     // delete the comment with the ID of 823423
+    
+    console.log(comments.slice(commentIndex))
 
   </script>
 </body>
