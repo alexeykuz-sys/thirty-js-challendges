@@ -9,6 +9,7 @@
   - [Challenge 06](#challenge-06)
   - [Challenge 07](#challenge-07)
   - [Challenge 08](#challenge-08)
+  - [Challenge 10](#challenge-10)
 
 ## Overview
 The purpose of this challenge is to build one app a day in next 30 days. I might not be able to build the apps daily but will endeavour to finish challenge as soon as possible. The main purpose is to learn and practice JavaScript.
@@ -48,3 +49,7 @@ I did not know how to update variables in CSS it was a good lesson and worth to 
 ### Chalenge 08
 
 IT is great fun to work with canvas, followed tutotial. I have never done canvas before. Learned a lot!
+
+### Chalenge 10
+
+It is the great exercise to learn how to control the player.
